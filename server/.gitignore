@@ -1,4 +1,4 @@
-# compiled output
+# Compiled output
 /dist
 /node_modules
 /build
@@ -12,8 +12,9 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# OS
+# OS generated files
 .DS_Store
+Thumbs.db
 
 # Tests
 /coverage
@@ -29,20 +30,20 @@ lerna-debug.log*
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# dotenv environment variable files
+# Environment variables
 .env
+.env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 
-# temp directory
+# Temporary files
 .temp
 .tmp
 
@@ -52,5 +53,10 @@ pids
 *.seed
 *.pid.lock
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
+# Diagnostic reports (Node.js)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# NestJS specific
+*.tsbuildinfo
+/dist/**/main.js.map  # Exclude source maps if generated
+/test-results/        # Test result artifacts
