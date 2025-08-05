@@ -37,7 +37,9 @@ export default function RootLayout({
                 <SignedInNavbar />
               </SignedIn>
             </>
-            <main className="h-full w-full flex justify-center items-center bg-foreground dark:bg-background">
+
+            {/* HERE IT NEEDS TO BE DONE for 100dvh no overflow for xl+ screens and then let it for small devices... */}
+            <main className="h-full w-full flex bg-foreground dark:bg-background text-background dark:text-foreground">
               {children}
             </main>
           </body>
