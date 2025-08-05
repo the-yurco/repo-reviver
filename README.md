@@ -9,3 +9,5 @@
   * Allows quick notes (e.g., "Paused for new job") to capture your project’s context.  
   * Simplifies archiving old repos to keep your GitHub profile polished and organized.  
 * **Why it’s great**: Saves you time, clears mental clutter, and transforms your project management into a stress-free, inspiring experience—letting you focus on creating, not chasing.
+
+<img width="1706" height="841" alt="2025-08-05-022959_1706x841_scrot" src="https://github.com/user-attachments/assets/c28d9fd8-28dd-40bc-994b-bc3b46b64d12" />
